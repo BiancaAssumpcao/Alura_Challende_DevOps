@@ -29,7 +29,7 @@ A imagem do container foi hospedada no [Docker Hub](https://hub.docker.com/) <br
 Pode ser acessada pelo link: https://hub.docker.com/r/biancarodrigues/alurachallengedevops
 
 
-## Resumo detalhado do challenge
+# Resumo detalhado do challenge
 Nesse projeto vamos utilizar um programa que já foi desenvolvido e vamos prepará-lo para ser colocado em produção (fazer o deploy).
 
 Faremos isso utilizando containers docker, um provedor de cloud, como a AWS e o Google Cloud.
