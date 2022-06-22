@@ -7,10 +7,10 @@ Repositório feito com o intuito de resolver os desafios do [Challenge DevOps](h
 - docker-compose.yml
 
 ## Arquivos Alterados
-- setup > settings.py
-Alteração do database sql3 para postgresql
-Adição do caracter '*' no comando ALLOWED_HOSTS
-- requirements.txt
+- setup > settings.py <br />
+Alteração do database sql3 para postgresql <br />
+Adição do caracter '*' no comando ALLOWED_HOSTS <br />
+- requirements.txt <br />
 Inserção da dependência 'psycopg2>=2.8'
 
 ## Como Executar?
