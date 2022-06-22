@@ -25,7 +25,7 @@ Inserção da dependência 'psycopg2>=2.8'
 5. Teste a aplicação através do link: http://localhost:8000 
 
 ## Docker Hub
-A imagem do container foi hospedada no [Docker Hub](https://hub.docker.com/)
+A imagem do container foi hospedada no [Docker Hub](https://hub.docker.com/) <br />
 Pode ser acessada pelo link: https://hub.docker.com/r/biancarodrigues/alurachallengedevops
 
 
