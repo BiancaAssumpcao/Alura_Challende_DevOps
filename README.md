@@ -8,10 +8,10 @@ Repositório feito com o intuito de resolver os desafios do [Challenge DevOps](h
 
 ## Arquivos Alterados
 - setup > settings.py
-    Alteração do database sql3 para postgresql
-    Adição do caracter '*' no comando ALLOWED_HOSTS
+Alteração do database sql3 para postgresql
+Adição do caracter '*' no comando ALLOWED_HOSTS
 - requirements.txt
-    Inserção da dependência 'psycopg2>=2.8'
+Inserção da dependência 'psycopg2>=2.8'
 
 ## Como Executar?
 
