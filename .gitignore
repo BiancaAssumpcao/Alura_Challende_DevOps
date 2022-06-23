@@ -6,6 +6,13 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
+data
+.data
+.data/db
+.db
+data/db
+db
+./data/db
 # Environments
 .env
 .venv
@@ -15,10 +22,3 @@ ENV/
 env.bak/
 venv.bak/
 pythonenv*
-data
-.data
-.data/db
-.db
-data/db
-db
-./data/db
