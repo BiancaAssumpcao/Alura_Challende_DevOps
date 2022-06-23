@@ -16,3 +16,8 @@ env.bak/
 venv.bak/
 pythonenv*
 data
+.data
+.data/db
+.db
+data/db
+db
