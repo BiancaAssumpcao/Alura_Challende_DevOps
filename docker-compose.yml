@@ -12,7 +12,7 @@ services:
 
   migration:
     build: .
-    command: python manage.py makemigrations --noinput
+    command: python manage.py migrate --noinput
     volumes:
       - .:/usr/src/app
     ports:
