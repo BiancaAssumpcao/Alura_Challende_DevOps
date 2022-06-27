@@ -15,7 +15,7 @@ Vamos montar uma rotina de CI para atualização automática do container e uma 
 
 # Informações sobre a organização do repositório
 
-Os arquivos README.md foram divididos por semana, para que as explicações fiquem mais claras.
+Os arquivos README.md foram divididos por semana, para que as explicações ficassem mais claras.
 - Semana 01: arquivo [readme_semana1.md](https://github.com/BiancaAssumpcao/Alura_Challenge_DevOps/blob/master/readme_semana1.md)
 - Semana 02: arquivo [readme_semana2.md](https://github.com/BiancaAssumpcao/Alura_Challenge_DevOps/blob/master/readme_semana2.md)
 - Semana 03: arquivo readme_semana3.md
