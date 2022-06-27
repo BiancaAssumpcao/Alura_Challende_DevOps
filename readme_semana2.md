@@ -32,6 +32,6 @@ Para subirmos nossa aplicação, primeiramente precisamos ter o nosso ambiente j
 Com o ambiente pronto, apenas subimos o arquivo .zip que foi gerado nos passos anteriores, esperamos sua publicação e pronto, a aplicação estará disponível para ser acessada pela internet.
 
 Você pode estar consultando o seguinte vídeo no YouTube, do canal *Domine AWS com Henrylle Maia*, para conseguir executar esses passos:
-[Criando e rodando sua primeira app com Elastic Beanstalk e Docker](https://www.youtube.com/watch?v=T53kSQE6ICw&t=872s)
+[Criando e rodando sua primeira app com Elastic Beanstalk e Docker](https://youtu.be/T53kSQE6ICw)
 
 É um passo a passo bem detalhado sobre como subir uma aplicação com Docker no Elastic Beanstalk.
