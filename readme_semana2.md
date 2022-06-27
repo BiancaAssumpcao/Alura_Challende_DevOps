@@ -9,15 +9,15 @@ Para o desafio escolhi o provedor da AWS (Amazon Web Services), e estarei utiliz
 ## Informações importantes para deploy
 - É preciso ter o repositório clonado localmente no seu computador.
 - Com a clonagem realizada, lembre-se de alterar as portas no arquivo do ```docker-compose.yml```, pois agora nossa aplicação não será mais acessada localmente, e sim pela internet. <br />
-Para isso basta mudar a linha 33 desse arquivo, veja como ficará a alteração:
+Para isso basta mudar a linha 33 desse arquivo, veja como ficará a alteração: <br />
 
-ANTES
-```- "8000:8000"```
-DEPOIS
-```- "80:8000"```
+**ANTES** <br />
+```- "8000:8000"``` <br />
+**DEPOIS** <br /> 
+```- "80:8000"``` <br />
 
-E pronto, com isso feito, basta compactar todos os arquivos presentes dentro do repositório para o formato .zip (iremos precisar mais a frente).
-- Com os passos acima concluídos, podemos partir para AWS. 
+- Com os passos acima realizados, agora será preciso compactar todos os arquivos presentes dentro do repositório, para o formato .zip (iremos utilizá-lo mais tarde).
+- Com essas etapas concluídas podemos partir para AWS. 
 
 ## Deploy com AWS
 A AWS oferece um nível gratuito, onde novos usuários podem utilizar durante um ano diversos serviços da AWS de forma gratuita, sempre se atentando aos limites que determinados serviços oferecem.
