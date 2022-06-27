@@ -11,9 +11,10 @@ Para o desafio escolhi o provedor da AWS (Amazon Web Services), e estarei utiliz
 - Com a clonagem realizada, lembre-se de alterar as portas no arquivo do ```docker-compose.yml```, pois agora nossa aplicação não será mais acessada localmente, e sim pela internet. <br />
 Para isso basta mudar a linha 33 desse arquivo, veja como ficará a alteração: <br />
 
-**ANTES** <br />
+ANTES <br />
 ```- "8000:8000"``` <br />
-**DEPOIS** <br /> 
+<br />
+DEPOIS <br /> 
 ```- "80:8000"``` <br />
 
 - Com os passos acima realizados, agora será preciso compactar todos os arquivos presentes dentro do repositório, para o formato .zip (iremos utilizá-lo mais tarde).
