@@ -2,7 +2,11 @@ version: '2.1'
 
 branch-defaults:
   dev:
-    environment: $CIRCLE_BRANCH-my-application
+    environment: dev-my-application
+environment-defaults:
+  dev-my-application:
+    branch: null
+    repository: null
 global:
   default_region: us-east-1
   application_name: dev-my-application
