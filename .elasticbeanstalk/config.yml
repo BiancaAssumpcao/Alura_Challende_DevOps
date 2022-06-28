@@ -5,9 +5,9 @@ branch-defaults:
     environment: $CIRCLE_BRANCH-my-application
 global:
   application_name: dev-my-application
-  default_ec2_keyname: null
   default_platform: 
     arn:aws:elasticbeanstalk:us-east-1::platform/Docker running on
     64bit Amazon Linux 2/3.4.17
   default_region: us-east-1
   sc: git
+  workspace_type: Application
