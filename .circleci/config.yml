@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   deploy:
-    working_directory: ~/project
+    working_directory: ~/app
     docker:
       - image: cimg/ruby:3.1.2
     steps:
@@ -13,10 +13,9 @@ jobs:
             sudo apt-get -y -qq update
             sudo apt-get install python3-pip python3-dev build-essential
             sudo pip3 install awsebcli
-
       - run:
           name: Deploying
-          command: eb deploy dev-my-application
+          command: eb deploy $CIRCLE_BRANCH-my-application
 
 workflows:
   version: 2

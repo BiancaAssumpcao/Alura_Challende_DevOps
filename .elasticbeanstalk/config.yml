@@ -4,10 +4,10 @@ branch-defaults:
   dev:
     environment: $CIRCLE_BRANCH-my-application
 global:
+  default_region: us-east-1
   application_name: dev-my-application
   default_platform: 
     arn:aws:elasticbeanstalk:us-east-1::platform/Docker running on
     64bit Amazon Linux 2/3.4.17
-  default_region: us-east-1
   sc: git
   workspace_type: Application
